@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Ovulation Calculator Widget with AJAX
  * Description: Виджет калькулятора овуляции для WordPress с расчетом без перезагрузки страницы.
- * Plugin URI: https://yoursite.com/
+ * Plugin URI: https://github.com/RobertoBennett/ovulation-calculator
  * Version: 1.4
  * Author: Robert Bennett
  * Text Domain: Conception Date Calculator
@@ -181,3 +181,4 @@ function ovulation_calculator_scripts() {
 
 // Инициализация плагина
 add_action('init', 'register_ovulation_calculator_shortcode');
+
